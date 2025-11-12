@@ -1,5 +1,15 @@
 # Portfolio V2 - Cosmic Edition 🌌
 
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Build-Vite-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/React-19.0-61dafb?style=for-the-badge&logo=react">
+  <img src="https://img.shields.io/badge/Three.js-3D-black?style=for-the-badge&logo=three.js">
+  <img src="https://img.shields.io/badge/TailwindCSS-3.x-38b2ac?style=for-the-badge&logo=tailwindcss">
+  <img src="https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel">
+</p>
+
+
 A modern portfolio website with an interactive 3D space theme. Built with React, Three.js, and Tailwind CSS.
 
 ## What's This?
