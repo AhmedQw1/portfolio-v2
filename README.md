@@ -108,4 +108,4 @@ MIT - feel free to use this as inspiration for your own portfolio!
 
 ---
 
-**From pixel art to cosmos**  Built with caffeine and Three.js
+**Art of cosmos**  Built with caffeine and Three.js
