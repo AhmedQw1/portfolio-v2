@@ -3,11 +3,12 @@ import React from 'react'
 const Projects = () => {
   const projects = [
     {
-      title: 'Portfolio Website',
-      description: 'A personal portfolio website built with React and Tailwind CSS featuring Web 2.0 design elements, responsive layout, and interactive components.',
-      tech: ['React', 'Tailwind CSS', 'JavaScript'],
+      title: 'Portfolio V2 - Cosmic Edition',
+      description: 'An interactive 3D portfolio with space theme featuring a rotating asteroid, holographic navigation labels, twinkling stars, animated nebula clouds, and glassmorphism UI. Built with React, Three.js, and Tailwind CSS.',
+      tech: ['React', 'Three.js', 'Tailwind CSS', 'Vite'],
       links: {
-        code: 'https://github.com/AhmedQw1/CV-Web-Portfolio'
+        code: 'https://github.com/AhmedQw1/portfolio-v2',
+        live: 'https://cv-web.me'
       }
     },
     {
@@ -20,23 +21,6 @@ const Projects = () => {
       }
     },
     {
-      title: 'Uni Chat',
-      description: 'A university-focused group chat platform with real-time messaging, file sharing, and organized chat rooms by major and course.',
-      tech: ['React', 'Tailwind CSS', 'Firebase'],
-      links: {
-        code: 'https://github.com/AhmedQw1/uni-chat-app',
-        live: 'https://uni-chat-app-vuuh.vercel.app/'
-      }
-    },
-    {
-      title: 'Web Calculator',
-      description: 'A simple, modern web-based calculator with a clean interface and responsive design, perfect for both simple and complex calculations.',
-      tech: ['JavaScript', 'HTML', 'CSS'],
-      links: {
-        code: 'https://github.com/AhmedQw1/web-calculator'
-      }
-    },
-    {
       title: 'JavaFX Sound Player',
       description: 'A modern JavaFX-based multimedia player supporting both audio and video playback. Built with a clean Material Design interface, adaptive themes, and smooth animations. Designed for speed, usability, and a polished desktop experience.',
       tech: ['Java', 'JavaFX', 'FXML'],
@@ -46,14 +30,6 @@ const Projects = () => {
           { label: 'v1.0', url: 'https://github.com/AhmedQw1/SoundPlayer/releases/download/v1.0.0/SoundPlayerV1-1.0.exe' },
           { label: 'v2.0', url: 'https://github.com/AhmedQw1/SoundPlayer/releases/download/v2.0.0/SoundPlayerV2-2.0.exe' }
         ]
-      }
-    },
-    {
-      title: 'Smart Clinic Management System',
-      description: 'A web-based clinic management system with role-based portals (admin, doctor, patient), powered by a Java Spring Boot backend and MySQL.',
-      tech: ['Java', 'Spring Boot', 'MySQL'],
-      links: {
-        code: 'https://github.com/AhmedQw1/java-database-capstone'
       }
     }
   ]
