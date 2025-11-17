@@ -5,38 +5,39 @@ const Skills = () => {
     {
       title: 'Frontend Development',
       skills: [
-        { name: 'React', desc: 'Component-based apps, hooks, state management' },
-        { name: 'JavaScript', desc: 'ES6+, async/await, DOM manipulation' },
-        { name: 'HTML5', desc: 'Semantic markup, accessibility, forms' },
-        { name: 'CSS3', desc: 'Flexbox, Grid, animations, responsive design' },
-        { name: 'Tailwind CSS', desc: 'Utility-first styling, custom components' }
+        { name: 'React 19', desc: 'Component architecture, hooks, state management' },
+        { name: 'Three.js', desc: '3D graphics, animations, interactive scenes' },
+        { name: 'Tailwind CSS', desc: 'Utility-first styling, glassmorphism, responsive design' },
+        { name: 'Vite', desc: 'Fast builds, hot module replacement, optimized bundling' },
+        { name: 'JavaScript ES6+', desc: 'Modern syntax, async/await, modules' }
       ]
     },
     {
-      title: 'Backend & Desktop',
+      title: 'Java & Desktop Development',
       skills: [
-        { name: 'Java', desc: 'OOP, Spring Boot, desktop applications' },
-        { name: 'JavaFX', desc: 'GUI applications, FXML, Scene Builder' },
-        { name: 'MySQL', desc: 'Database design, queries, optimization' },
-        { name: 'Spring Boot', desc: 'REST APIs, dependency injection' }
+        { name: 'Java 21', desc: 'Modern Java, OOP principles, application architecture' },
+        { name: 'JavaFX 21', desc: 'Rich UI applications, FXML, media playback' },
+        { name: 'Maven', desc: 'Build automation, dependency management, packaging' },
+        { name: 'JFoenix', desc: 'Material Design components for JavaFX' }
       ]
     },
     {
-      title: 'Tools & Workflow',
+      title: 'Libraries & Frameworks',
       skills: [
-        { name: 'Git & GitHub', desc: 'Version control, collaboration, CI/CD' },
-        { name: 'VS Code', desc: 'Extensions, debugging, productivity' },
-        { name: 'IntelliJ IDEA', desc: 'Java development, refactoring, debugging' },
-        { name: 'Figma', desc: 'UI/UX design, prototyping, collaboration' }
+        { name: '@react-three/fiber', desc: 'React renderer for Three.js scenes' },
+        { name: '@react-three/drei', desc: 'Three.js helpers and abstractions' },
+        { name: 'Formspree', desc: 'Form backend integration, validation' },
+        { name: 'Yup', desc: 'Schema validation for forms' },
+        { name: 'Vitest', desc: 'Unit testing, component testing' }
       ]
     },
     {
-      title: 'Other Technologies',
+      title: 'Tools & Deployment',
       skills: [
-        { name: 'Firebase', desc: 'Real-time database, authentication' },
-        { name: 'Vercel', desc: 'Deployment, hosting, domain management' },
-        { name: 'API Integration', desc: 'REST APIs, data fetching, error handling' },
-        { name: 'Responsive Design', desc: 'Mobile-first, cross-browser compatibility' }
+        { name: 'Git & GitHub', desc: 'Version control, repositories, releases' },
+        { name: 'Vercel', desc: 'Frontend deployment, CI/CD, domain hosting' },
+        { name: 'VS Code', desc: 'Development environment, extensions, debugging' },
+        { name: 'IntelliJ IDEA', desc: 'Java IDE, refactoring, debugging' }
       ]
     }
   ]
